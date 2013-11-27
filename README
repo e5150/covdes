@@ -1,0 +1,8 @@
+This is a suite of programs to find optimal combinatorial (double) covering 
+designs. I.e the k-uniform hypergraphs on a n vertices that has the fewest
+possible edges, while every t-sized subset of the vertices is contained in
+at least one (or two, for double coverings) edge(s). (This is a converse of
+Turán hypergraphs.) The graphs are found by integer programming using Gurobi,
+and isomorphism-reduction is dony by Nauty. See the pdf for description of
+the parts of the suite.
+This was part of my bachelor thesis under supervision of K. Markström.
